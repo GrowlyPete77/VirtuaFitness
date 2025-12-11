@@ -17,13 +17,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/VF_Icon-removebg-preview.png"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.growlypete77.VF"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/VF Icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b606dd0-13a4-4693-b289-d5e974c26264"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
